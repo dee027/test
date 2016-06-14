@@ -10,6 +10,5 @@
 
 ###### Heading 6
 
-####### Heading 7
-
-######## Heading 8
+This is *italic* or _italic_.
+This is **bold** or __bold__.
