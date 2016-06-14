@@ -13,7 +13,9 @@
 This is *italic* or _italic_.
 This is **bold** or __bold__.
 *This is __bold__ italic*
+
 ![Image](http://www.muchoconpoco.org/mfwlite/apps/mcp/resources/images/layout/icon-clock-light.png)
+
 [Click on this link to see the image](http://www.muchoconpoco.org/mfwlite/apps/mcp/resources/images/layout/icon-clock-light.png)
 
 As Kanye West said:
@@ -35,6 +37,11 @@ function fancyAlert(arg) {
   }
 }
 ```
+    function fancyAlert(arg) {
+      if(arg) {
+        $.facebox({div:'#foo'})
+      }
+    }
 
 - [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
 - [x] list syntax required (any unordered or ordered list supported)
